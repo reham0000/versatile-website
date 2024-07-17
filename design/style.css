@@ -1,44 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-body{
-    font-family: "Inter", sans-serif;
-    background: rgba(0, 0, 0, 0.945);
+body {
+  font-family: "Inter", sans-serif;
+  background: rgba(0, 0, 0, 0.945);
 }
 /* default codes */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* navbar styles */
-.navbar{
+.navbar {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.nav-title {
+  color: rgb(230, 83, 60);
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+.navbar-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  gap: 60px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.home {
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 600;
+  background: rgb(230, 83, 60);
+}
+.ham-burger {
+  display: none;
+}
+
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.banner-content {
+  color: white;
+}
+.banner-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.banner-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+}
+#shape {
+  font-family: "Brush Script MT", cursive;
+  font-weight: 100;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.btn-1 {
+  font-size: 1.1rem;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: -50px;
+  border: none;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  font-weight: 500;
+}
+.btn-2 {
+  font-size: 1.1rem;
+  border-radius: 50px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+}
+.trainer-image {
+  position: relative;
+}
+.img-icon{
+    width: 170px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-}
-.nav-title{
-    color: rgb(230, 83, 60);
-    font-size: 2.3rem;
-    font-weight: 800;
-}
-.navbar-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 5px;
+    position: absolute;
     color: white;
-    gap: 60px;
-    font-size: 1.1rem;
-    font-weight: 400;
+    top: 430px;
+    right: 200px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.home{
-    width: 70px;
-    height: 25px;
-    text-align: center;
-    border-radius: 50px;
-    font-weight: 600;
-    background: rgb(230, 83, 60);
+.color-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 50%;
 }
-.navbar-info i{
+.tutorial {
+  
+  
+
+}
+.workout {
+    width: 170px;
+    gap: 20px;
+    padding: 20px 10px;
+    position: absolute;
+    color: white;
+    top: 150px;
+    right: -30px;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.icon{
+    
+}
+
+
+
+/* responsive styles */
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-info {
     display: none;
+  }
+  .nav-title {
+    margin-left: -200px;
+  }
+  .ham-burger {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    margin-top: -40px;
+    margin-left: 350px;
+  }
+  .banner-container{
+    margin-top: 30px;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .navbar{
+    padding: 0px 20px;
+  }
+  .banner-content > h1{
+    font-size: 3rem;
+  }
+
 }
