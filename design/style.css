@@ -2,4 +2,43 @@
 
 body{
     font-family: "Inter", sans-serif;
+    background: rgba(0, 0, 0, 0.945);
+}
+/* default codes */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar styles */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.navbar-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    gap: 60px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.home{
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+}
+.navbar-info i{
+    display: none;
 }
