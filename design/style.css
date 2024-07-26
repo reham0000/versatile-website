@@ -20,6 +20,7 @@ body {
   color: rgb(230, 83, 60);
   font-size: 2.3rem;
   font-weight: 800;
+  margin-left: -70px;
 }
 .navbar-info {
   padding: 8px;
@@ -129,9 +130,9 @@ body {
     font-weight: 400;
 }
 .workout > p{
-        color: rgba(239, 237, 232, 0.65);
-        font-size: 0.8rem;
-        font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 .workout {
     width: 150px;
@@ -161,6 +162,7 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   margin-top: 10px;
+  line-height: 1.6rem;
 }
 .habits-images{
   margin-top: 40px;
@@ -189,8 +191,50 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   margin-top: 10px;
+  line-height: 1rem;
 } 
-
+/* running styles */
+.run{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  padding: 30px;
+}
+.run-content{
+  color: white;
+  
+}
+.run-content > h1{
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.run-content > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 30px; 
+  line-height: 1.6rem; 
+}
+.run-img{
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+.btn-3{
+  margin-left: 5px;
+  width: 230px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 
 
 
@@ -234,6 +278,16 @@ body {
   }
   .img-1{
     margin: 60px;
+  }
+  .run{
+    width: 80%;
+    flex-direction: column;
+  }
+  .btn-3{
+    width: 100%;
+  }
+  .run-img{
+    margin-top: -60px;
   }
   
 }
