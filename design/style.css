@@ -9,6 +9,18 @@ body {
   margin: 0;
   padding: 0;
 }
+.all-h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.all-p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+  
 /* navbar styles */
 .navbar {
   display: flex;
@@ -207,11 +219,9 @@ body {
   gap: 8rem;
   padding: 30px;
 }
-.run-content{
-  color: white;
-  
-}
+
 .run-content > h1{
+  color: white;
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 30px;
@@ -220,7 +230,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
   font-weight: 400;
-  margin-bottom: 30px; 
+  margin-bottom: 50px; 
   line-height: 1.6rem; 
 }
 .run-img{
@@ -234,6 +244,13 @@ body {
   height: 50px;
   font-size: 1.2rem;
   font-weight: 600;
+}
+/* BMI Calculator styles */
+.bmi-container{
+  margin-top: 50px;
+}
+.bmi{
+  text-align: center;
 }
 
 
