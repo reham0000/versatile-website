@@ -246,12 +246,15 @@ body {
   font-weight: 600;
 }
 /* BMI Calculator styles */
-.bmi-container{
-  margin-top: 50px;
-}
 .bmi{
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
+.bmi-container{
+  
+}
+
 
 
 
