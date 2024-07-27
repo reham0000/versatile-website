@@ -266,7 +266,6 @@ body {
 }
 .chart-table{
   width: 115%;
- 
 }
 .table-content{
   width: 100%;
@@ -277,6 +276,7 @@ body {
 table, tr, th{
   border: 1px solid black;
   padding: 15px;
+  margin-bottom: 70px;
 }
 td{
   color: black;
@@ -292,7 +292,7 @@ td{
   font-size: 2rem;
   color: black;
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: -15px;
   
 }
 .calculate-bmi >p{
@@ -324,6 +324,41 @@ td{
   width: 50%;
   margin-top: 30px;
   margin-left: 2px;;
+}
+/* customize styles */
+.our-product{
+  margin-top: 50px;
+  text-align: center;
+}
+.products{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.card{
+  max-width: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.btn-5 {
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.btn-5:hover {
+  opacity: 0.7;
 }
 
 
@@ -389,7 +424,12 @@ td{
   }
   .calculate-bmi{
     width: 95%;
-    
+  }
+  .btn-4{
+    margin-bottom: 30px;
+  }
+  .products{
+    grid-template-columns: repeat(1, 1fr);
   }
   
 }
