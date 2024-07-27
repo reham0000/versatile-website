@@ -308,14 +308,14 @@ td{
 .option-description{
   height: 200%;
   border-radius: 8px;
-  border: 1px solid black;
+  border: none;
   background-color:bisque;
   padding: 2.5px;
 }
 #factor{
   width: 100%;
   border-radius: 8px;
-  border: 1px solid black;
+  border: none;
   background-color:bisque;
   padding: 20px;
   margin-top: 37px;
@@ -382,7 +382,7 @@ td{
 .trainer{
   max-width: 85%;
   margin-top: 20px;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
@@ -399,7 +399,9 @@ td{
 }
 /* footer section styles */
 .footer-container{
+  border: 2px solid transparent;
   background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
 }
 .footer-content{
   display: flex;
@@ -451,7 +453,13 @@ hr{
   margin: 0 auto;
   margin-left: 110px;
   margin-bottom: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.foot{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 
@@ -527,5 +535,26 @@ hr{
   .member-container{
     grid-template-columns: repeat(1, 1fr);
   }
-  
+  .footer-content{
+    flex-direction: column;
+  }
+  .fit{
+    margin-left: 20px;
+  }
+  .footer-content-2{
+    margin-top: -100px;
+  }
+  .footer-content-3{
+    margin-top: -100px;
+  }
+  hr{
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .foot{
+    text-align: start;
+    margin-left: 80px;
+  }
 }
