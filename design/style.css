@@ -360,6 +360,99 @@ td{
 .btn-5:hover {
   opacity: 0.7;
 }
+/* Member section style starts form here */
+.member{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.member-container{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.member-content > img{
+  height: 300px;
+  width: 300px;
+}
+.trainer{
+  max-width: 85%;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.overlay-text{
+  position: absolute;
+}
+.overlay-text > h1{
+  position: relative;
+  margin-top: -80px;
+  margin-left: 40px;
+}
+.overlay-text > p{
+  margin-left: 40px;
+}
+/* footer section styles */
+.footer-container{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 50px;
+}
+.fit{
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-bottom: 30PX;
+  font-size: 4rem;
+}
+.footer-content-1 >p{
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-size: 0.8rem;
+}
+.footer-content-2{
+  margin-right: 80px;
+}
+.footer-content-3{
+  margin-right: 80px;
+}
+.footer-content-2 > h1{
+  color: white;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.footer-content-3 > h1{
+  color: white;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.footer-content-2 > p{
+  line-height: 40px;
+  font-size: 1rem;
+}
+.footer-content-3 > p{
+  line-height: 40px;
+  font-size: 1rem;
+}
+hr{
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 110px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
 
 
 
@@ -429,6 +522,9 @@ td{
     margin-bottom: 30px;
   }
   .products{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .member-container{
     grid-template-columns: repeat(1, 1fr);
   }
   
